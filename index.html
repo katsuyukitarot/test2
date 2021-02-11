@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>タロット占い</title>
+
+    <link rel="stylesheet" href="sample.css">
+    <!-- ▼CSS 1 -->
+    <link href="phone.css" rel="stylesheet" type="text/css"
+          media="(max-width: 599px)">
+    <!-- ▼CSS 2 -->
+    <link href="tablet.css" rel="stylesheet" type="text/css"
+          media="(min-width: 600px) and (max-width: 959px)">
+    <!-- ▼CSS 3 -->
+    <link href="desktop.css" rel="stylesheet" type="text/css"
+          media="(min-width: 960px)">
+</head>
+<body bgcolor="black" text="#ffffff" style="">
+    <!--<body bgcolor="black" text="#ffffff" style="width: 500px;">-->
+        <!--<p class="title" style="font-size: 50px;">タロット占い</p>-->
+        <p>
+            <label class="title" style="font-size: 50px;">タロット占い&nbsp;&nbsp;</label>
+            <button type="button" id="btn3" style="width: 30%; padding: 10px; font-size:30px;">占う</button>
+        </p>
+        <hr width="100%">
+
+        <table border="1" width="80%">
+            <tr>
+                <th bgcolor="#f5f5dc" width="20%" class="tarot_class"><font color="black">カード名称</font></th>
+                <th bgcolor="#f5f5dc" width="20%" class="tarot_class"><font color="black">キーワード</font></th>
+                <th bgcolor="#f5f5dc" width="30%" class="tarot_class"><font color="black">カード</font></th>
+                <th bgcolor="#f5f5dc" width="40%" class="tarot_class"><font color="black">説明</font></th>
+            </tr>
+            <tr>
+                <td width="20%" class="tarot_class" id="tarot_name">カード</td>
+                <th width="20%" class="tarot_class" id="tarot_keyword">キーワード</th>
+                <td width="30%">
+                    <img class="tarot_photo" />
+                </td>
+                <td width="40%">
+                    <label class="tarot_class" id="tarot_text" />
+                </td>
+</table>
+
+        <p>
+            <label class="title" style="font-size: 30px;">※このカードは上下で意味は変わりません。</label>
+
+            <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+            <script type="text/javascript" src="Script1.js"></script>
+    </body>
+    </html>

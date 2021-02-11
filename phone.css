@@ -1,0 +1,40 @@
+﻿.pc {
+    display: block;
+}
+
+.sp {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .pc {
+        display: none;
+    }
+
+    .sp {
+        display: block;
+    }
+}
+
+body {
+    background-color:black;
+}
+.disp-area {
+  width: 340px;
+  height: 100px;
+  padding: 14px;
+  background-color: #74e5d2;
+}
+
+.disp-area p {
+  font-size: 40px;
+  margin: 4px;
+}
+
+.tarot_class {
+    font-size: medium; /* 文字サイズ */
+}
+
+.tarot_photo {
+    height: auto;
+}
